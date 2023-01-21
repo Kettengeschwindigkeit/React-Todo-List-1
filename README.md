@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-"React - Way of Samurai 1.0" - the greatest epic course by Dimych IT-KAMASUTRA Kuzyuberdin - https://www.youtube.com/watch?v=gb7gMluAeao&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=1
+ReactJS quick course 2020 by Vladilen Minin  - https://www.youtube.com/watch?v=xJZa2_aldDs&list=PLqKQF2ojwm3lrzkYrqnxh6qywB99dCyCt
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
