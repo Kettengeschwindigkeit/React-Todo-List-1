@@ -1,8 +1,33 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+const styles ={
+    li: {
+        display: 'flex',
+        alignItem: 'center',
+        justifyContent: 'space-between',
+        marginBottom: '.5rem',
+        padding: '.5rem 1rem',
+        border: '1px solid #ccc',
+        borderRadius: '4px'
+    },
+    input: {
+        marginRight: '1rem'
+    }
+}
+
 function TodoItem({ todo, index }) {
-    return <li><strong>{index + 1}</strong>{todo.title}</li>
+    return (
+        <li style={styles.li}>
+            <span>
+                <input type="checkbox" style={styles.input} />
+                <strong>{index + 1}</strong>
+                &nbsp;
+                {todo.title}
+            </span>
+            <button className="rm">&times;</button>
+        </li>
+    )
 }
 
 TodoItem.propTypes = {

@@ -17,3 +17,10 @@ code {
   margin: 0 auto;
   padding-top: 5rem;
 }
+
+.rm {
+  color: #fff;
+  background: red;
+  border-radius: 50%;
+  border: none;
+}
