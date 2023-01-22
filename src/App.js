@@ -2,18 +2,28 @@ import React from 'react'
 import TodoList from './Todo/TodoList'
 
 function App() {
-  const todos = [
+  let todos = [
     { id: 1, completed: false, title: 'To buy bread' },
     { id: 2, completed: false, title: 'To buy beer' },
-    { id: 3, completed: false, title: 'To buy milk' }
+    { id: 3, completed: false, title: 'To buy pot' }
   ]
 
-    return (
-      <div className='wrapper'>
-        <h1>React tutorial</h1>
-        <TodoList todos={todos} />
-      </div>
-    )
+  function toggleTodo(id) {
+    console.log('todo id', id)
+    todos = todos.map(todo => {
+      if (todo.id === id) {
+        todo.completed = !todo.completed
+      }
+      return todo
+    })
   }
+
+  return (
+    <div className='wrapper'>
+      <h1>React tutorial</h1>
+      <TodoList todos={todos} onToggle={toggleTodo} />
+    </div>
+  )
+}
 
 export default App
