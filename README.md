@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-ReactJS quick course 2020 by Vladilen Minin  - https://www.youtube.com/watch?v=xJZa2_aldDs&list=PLqKQF2ojwm3lrzkYrqnxh6qywB99dCyCt
+Todo list using React  - https://www.youtube.com/watch?v=xJZa2_aldDs&list=PLqKQF2ojwm3lrzkYrqnxh6qywB99dCyCt
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
